@@ -1,0 +1,49 @@
+.hero{
+    display: flex;
+    background: linear-gradient(180deg, #fde1ff 40%, rgba(225, 255, 234, 0.13) 60%);
+    height: 100vh;
+  }
+  .hero-left-section{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left:180px;
+    line-height: 1.1;
+  }
+  .hero-left-section h2{
+    color: #090909;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .hero-left-section p{
+    color: #171717;
+    font-size: 90px;             
+    font-weight: 700;
+}
+.hero-hand-icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.hero-hand-icon img{
+    width: 105px;
+}
+.hero-latest-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     gap: 15px;
+     width: 310px;
+     height: 70px;
+     border-radius: 75px;
+     background: #ff4141;
+     color: white;
+     font-size: 22px;
+     font-weight: 500;
+}
+.hero-right-section{
+    flex: 1;
+}
+  
