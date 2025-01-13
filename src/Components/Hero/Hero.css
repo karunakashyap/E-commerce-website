@@ -46,4 +46,7 @@
 .hero-right-section{
     flex: 1;
 }
+.hero-right-section img{
+  height: 90%;
+}
   
