@@ -12,13 +12,13 @@ const LoginSingup = () => {
           <input type='password' placeholder='password'></input>
         </div>
         <button>Continue</button>
-         <p className="login">Already have an account?<span>Login here</span></p>
-         <div className="agree">
+        <p className="login">Already have an account?<span>Login here</span></p>
+        <div className="agree">
           <input type="checkbox" name='' id='' />
           <p>By continuing, i agree to the terms of use & privacy policy.</p>
-         </div>
+        </div>
       </div>
-      
+
     </div>
   )
 }

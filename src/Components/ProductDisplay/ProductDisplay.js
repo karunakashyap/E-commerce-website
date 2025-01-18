@@ -36,28 +36,28 @@ const ProductDisplay = (props) => {
                     <div className="right-prices-new">
                         ${product.new_price}
                     </div>
-                    </div>
-                    <div className="right-description">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                        Assumenda sunt doloribus animi itaque asperiores, cupiditate,
-                        vero neque explicabo voluptatibus, a similique quisquam praesentium
-                        ipsa facilis recusandae deleniti sed quae sequi.
-                    </div>
-                    <div className="right-size">
-                        <h1>Select Size</h1>
-                        <div className='right-sizes'>
-                            <div>S</div>
-                            <div>M</div>
-                            <div>L</div>
-                            <div>XL</div>
-                            <div>XXL</div>
-                        </div>
-                    </div>
-                    <button>ADD TO CART</button>
-                    <p className='right-category'>Category :<span>Women , T-Shirt , Crop-Top</span></p>
-                    <p className='right-category'>Tags :<span>Modern , Latest</span></p>
                 </div>
+                <div className="right-description">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Assumenda sunt doloribus animi itaque asperiores, cupiditate,
+                    vero neque explicabo voluptatibus, a similique quisquam praesentium
+                    ipsa facilis recusandae deleniti sed quae sequi.
+                </div>
+                <div className="right-size">
+                    <h1>Select Size</h1>
+                    <div className='right-sizes'>
+                        <div>S</div>
+                        <div>M</div>
+                        <div>L</div>
+                        <div>XL</div>
+                        <div>XXL</div>
+                    </div>
+                </div>
+                <button>ADD TO CART</button>
+                <p className='right-category'>Category :<span>Women , T-Shirt , Crop-Top</span></p>
+                <p className='right-category'>Tags :<span>Modern , Latest</span></p>
             </div>
+        </div>
     )
 }
 

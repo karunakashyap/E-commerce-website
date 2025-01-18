@@ -5,13 +5,13 @@ import Breadcrums from '../Components/Breadcrums/Breadcrums'
 import ProductDisplay from '../Components/ProductDisplay/ProductDisplay'
 
 const Product = () => {
-  const {allProduct} = useContext(ShopContext)
-  const {productId} = useParams();
-  const product = allProduct.find((e)=>e.id===Number(productId))
+  const { allProduct } = useContext(ShopContext)
+  const { productId } = useParams();
+  const product = allProduct.find((e) => e.id === Number(productId))
   return (
     <div>
-      <Breadcrums product={product}/>
-      <ProductDisplay product={product}/>
+      <Breadcrums product={product} />
+      <ProductDisplay product={product} />
     </div>
   )
 }
