@@ -45,25 +45,14 @@
     font-weight: 500;
     color: #555;
 }
-.navbar-menu hr{
+
+.navbar-menu hr {
     border: none;
     height: 3px;
     border-radius: 10px;
     background: #FF4141;
 }
 
-/* .navbar-menu li::after {
-    content: '';
-    display: block;
-    height: 2px;
-    width: 0;
-    background: #555;
-    transition: width 0.3s;
-    margin-top: 5px;
-} */
-/* .navbar-menu li:hover::after{
-    width: 100%;
- } */
 .right-section {
     display: flex;
     align-items: center;
@@ -82,11 +71,28 @@
 
 .login-btn:hover {
     background-color: #555;
-    color:#fff;
+    color: #fff;
 }
 
 .cart-icon {
     height: 30px;
     width: auto;
     cursor: pointer;
+}
+
+.nav-count {
+    position: relative;
+    right: 20px;
+    border-radius: 50px;
+    background: rgb(255, 0, 0);
+    color: white;
+    width: 18px;
+    height: 18px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    top: -7px;
+    font-size: 10px;
+    font-weight: 500;
 }
