@@ -23,7 +23,7 @@
 }
 .fields input{
     height: 60px;
-    width: 100%;
+    /* width: 100%; */
     padding-left: 20px;
     border: 1px solid #c9c9c9;
     outline: none;
@@ -62,4 +62,55 @@
 }
 .agree p{
     margin-left: 10px;
+}
+@media(max-width:1280px){
+    .loginSignUp{
+        padding-top: 50px;
+    }
+    .container{
+        width: auto;
+        max-width: 500px;
+        max-height: 500px;
+    }
+    .container h1{
+        margin: 10px 0px;
+    }
+    .fields{
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .fields input{
+        height: 65px;
+        width: 93%;
+    }
+    .container button{
+        width: 100%;
+    }
+    .login{
+        font-size: 16px;
+    }
+    .agree{
+        font-size: 14px;
+        gap: 10px;
+    }
+
+}
+@media(max-width:800px){
+    .loginSignUp{
+        padding: 20px 30px;
+    }
+    .container h1{
+        font-size: 24px;
+    }
+    .fields{
+        margin-top: 20px;
+    }
+    .fields input{
+        height: 50px;
+    }
+    .container button{
+        height: 50px;
+        font-size: 16px;
+        width: 100%;
+    }
 }
