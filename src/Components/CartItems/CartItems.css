@@ -92,3 +92,58 @@
     color: white;
     cursor: pointer;
 }
+@media(max-width:1280px){
+    .cart-items{
+        margin: 60px 50px;
+    }
+     .main-format{
+        grid-template-columns: 0.5fr 3fr 0.5fr 0.5fr 0.5fr 0.5fr;
+        gap: 20px;
+        padding: 15px 0px;
+        font-size: 15px;
+    }
+    .product-icon{
+        height: 50px;
+    }
+    .carts-remove-icon{
+        margin: auto;
+    }
+    .quantity{
+        width: 40px;
+        height: 30px;
+    }
+    .cart-item-down{
+        margin: 80px 0px;
+        flex-direction: column;
+        gap: 80px;
+    }
+    .total-cart-items{
+        margin: 0;
+    }
+    .total-cart-items button{
+        max-width: 200px;
+        height: 45px;
+        font-size: 13px;
+    }
+    .promo-box{
+        width: auto;
+        max-width: 500px;
+    }
+    .promo-box input{
+        width: 100%;
+    }
+    .promo-box button{
+        width: 120px;
+        margin-left: -125px;
+    }
+}
+@media(max-width:500px){
+    .main-format{
+        display: none;
+        grid-template-columns: 0.5fr 3fr 0.5fr;
+        gap: 10px;
+    }
+    .cart-items-formate{
+        display: grid;
+    }
+}
